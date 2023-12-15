@@ -11,9 +11,11 @@ nokia.Ligar();
 nokia.ReceberLigacao();
 nokia.InstalarAplicativo("Pou");
 
+Console.Write("\n");
+
 //realizando testes com iphone
 Console.WriteLine("Smartphone IPhone: ");
 Smartphone iphone = new Iphone(numero: "444", modelo: "beta" , imei: "990898877" , memoria: 32);
 iphone.Ligar();
 iphone.ReceberLigacao();
-iphone.InstalarAplicativo("Pou");
+iphone.InstalarAplicativo("Spotify");
